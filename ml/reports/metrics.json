@@ -1,0 +1,23 @@
+{
+  "model": "plant_disease_v1",
+  "backbone": "MobileNetV2 (ImageNet, frozen)",
+  "method": "feature extraction + softmax head",
+  "img_size": 224,
+  "num_classes": 38,
+  "split": {
+    "train": "train[:80%]",
+    "val": "train[80%:90%]",
+    "test": "train[90%:]"
+  },
+  "split_sizes": {
+    "train": 43442,
+    "val": 5431,
+    "test": 5430
+  },
+  "test_accuracy": 0.9639,
+  "test_loss": 0.1172,
+  "best_val_accuracy": 0.963,
+  "epochs_run": 22,
+  "tensorflow": "2.19.1",
+  "training_minutes": 1.4
+}
