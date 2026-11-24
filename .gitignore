@@ -11,5 +11,8 @@ backend/models/*.h5
 backend/uploads/
 *.log
 .DS_Store
-ml/.data/
+ml/.data
+
+# Local-only: project report and architecture decision records
 docs/Project_Report_Plant_Disease_Detection.docx
+decisions/
