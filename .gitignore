@@ -12,3 +12,4 @@ backend/uploads/
 *.log
 .DS_Store
 ml/.data/
+docs/Project_Report_Plant_Disease_Detection.docx
